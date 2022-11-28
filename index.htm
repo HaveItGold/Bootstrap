@@ -18,13 +18,18 @@
 </head>
 
 <body style="background-color:#00941e">
-<div class="navbar navbar-expand justify-content-center" style="background-color:#01831b">
+  <!-- The navigation at the top, equipped with logo -->
+
+<div class="navbar navbar-expand justify-content-center"
+style="background-color:#01831b">
   <ul class="navbar-nav" style="font-family:garamond">
     <div class="container-fluid">
       <a class="navbar-brand">
+        <!-- The Mamma Mia Pizzaria logo -->
       <img src="pizza-logo.png" alt="MMP logo" class="rounded"></img>
       </a>
     </div>
+    <!-- The other pages that you can go to -->
     <li class="nav-item mx-3"><button type="button" class="btn btn-success">
       <a href="pizza-good.htm">Why Pizza is Good</a></li></button>
     <li class="nav-item mx-3"><button type="button" class="btn btn-success">
@@ -33,9 +38,11 @@
       <a href="terms.htm">Terms and Conditions</a></li></button>
   </ul>
 </div>
-<div class="mt-4 p-5">
+<!-- Jumbotron -->
+<div class="mt-4 p-5 d-flex justify-content-center">
   <h1 style="font-family:georgia; color:#bc0000">MAMMA MIA PIZZARIA</h1>
 </div>
+<!-- Clearly fake reviews -->
 <div class="container", style="background-color:#00941e">
   <img src="pizza-image.jpg" class="rounded-circle" alt="Pizza Image"></img>
   <p style="font-family:garamond">&#11088;&#11088;&#11088;&#11088;&#11088;
@@ -43,47 +50,54 @@
   <p style="font-family:garamond">&#11088;&#11088;&#11088;&#11088;
   "Top quality! Great ingredients!" -Mike Ountrefit A. Count</p>
   <p style="font-family:garamond">&#11088;&#11088;&#11088;&#11088;&#11088;
-  "This review is as real as me!" -Jake Fob-Ooëurqur</p>
+  "This review is as real as me!" -Jake Fobworker</p>
   <p style="font-family:garamond">Order now by inserting your information down
   below!</p>
 </div>
+<!-- The form so you can order pizza with too much information -->
+<!-- Name -->
 <div class="form-floating text-white mb-3 mt-3">
   <input style="background-color:#86c893" type="text" class="form-control"
   id="Name" placeholder="Enter name" name="Name"><label for="Name">Full Name
   </label>
 </div>
+<!-- Address -->
 <div class="form-floating text-white mt-3 mb-3">
   <input style="background-color:#86c893" type="text" class="form-control"
   id="Address" placeholder="Enter address" name="Address"><label for="Address">
     Address</label>
 </div>
+<!-- Credit Card Number -->
 <div class="form-floating text-white mt-3 mb-3">
   <input style="background-color:#86c893" type="text" class="form-control"
   id="CC#" placeholder="Enter CC#" name="CC#" required><label for="CC#">Credit
   Card Number</label>
 </div>
+<!-- CCV -->
 <div class="form-floating text-white mt-3 mb-3">
   <input style="background-color:#86c893" type="text" class="form-control"
   id="CCV" placeholder="Enter CCV" name="CCV" required><label for="CCV">CCV (3
   Numbers at the Back of Credit Card)</label>
 </div>
+<!-- Social Security Number -->
 <div class="form-floating text-white mt-3 mb-3">
   <input style="background-color:#86c893" type="text" class="form-control"
   id="SS#" placeholder="Enter SS#" name="SS#" required><label for="SS#">Social
   Security Number</label>
 </div>
+<!-- Murder -->
 <div class="form-floating text-white mt-3 mb-3">
   <input style="background-color:#86c893" type="text" class="form-control"
   id="Filled" placeholder="Enter answer" name="Filled" required><label
   for="Filled">If this form is filled we are allowed to murder your family.
 </label>
 </div>
+<!-- Submition button for the above form -->
 <button type="submit" class="btn btn-success" style="font-family:garamond">
 Submit
 </button>
-
 <p><br></br></p>
-
+<!-- An offcanvas about the creator's life story -->
 <div class="offcanvas offcanvas-start" id="creator">
   <div class="offcanvas-header">
     <h1 class="offcanvas-title" style="font-family:georgia">Creator</h1>
@@ -91,8 +105,10 @@ Submit
   </div>
   <div class="offcanvas-body">
     <div class="card">
-      <div class="card-header"><img src="italian-chef.jfif" class="rounded" alt="Pizza Man"></img></div>
-      <div class="card-body" style="font-size:24px; font-family:georgia">Enzo Rossi</div>
+      <div class="card-header"><img src="italian-chef.jfif" class="rounded"
+        alt="Pizza Man"></img></div>
+      <div class="card-body" style="font-size:24px; font-family:georgia">Enzo
+        Rossi</div>
       <div class="card-footer" style="font-family:garamond">Enzo Rossi is the
       one and only creator of the Mamma Mia Pizzaria. Lived from 1946-2020 (died
       because of excessive yeast ingestion). Had 2 kids and 19 wives. Friend of
@@ -108,8 +124,9 @@ Submit
     </div>
   </div>
 </div>
-
-<button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#creator" style="font-family:garamond">
+<!-- The button for the offcanvas listed above -->
+<button class="btn btn-success" type="button" data-bs-toggle="offcanvas"
+data-bs-target="#creator" style="font-family:garamond">
   Meet the Creator!
 </button>
 
